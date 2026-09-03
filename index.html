@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Medany | Junior Data Analyst</title>
+    <meta name="description"
+        content="Turning messy business data into clear insights that support better decisions. Portfolio of Mohamed Medany.">
+    <meta name="theme-color" content="#0a0a0a">
+
+    <!-- Fonts: Inter for UI, Space Mono or similar for data elements -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons (lightweight and premium) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#" class="navbar__brand" aria-label="Home">
+                Mohamed Medany<span class="text-accent"></span>
+            </a>
+
+            <div class="navbar__links desktop-only">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+                    <i class="ph ph-moon icon-dark"></i>
+                    <i class="ph ph-sun icon-light"></i>
+                </button>
+            </div>
+
+            <div class="navbar__mobile-controls mobile-only">
+                <button id="theme-toggle-mobile" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+                    <i class="ph ph-moon icon-dark"></i>
+                    <i class="ph ph-sun icon-light"></i>
+                </button>
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-padding">
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <div class="badge fade-in-up" style="--delay: 0.1s;">Junior Data Analyst</div>
+                    <h1 class="hero__title fade-in-up" style="--delay: 0.2s;">
+                        Mohamed Medany<span class="text-accent"></span>
+                    </h1>
+                    <p class="hero__subtitle fade-in-up" style="--delay: 0.3s;">
+                        Turning messy business data into clear insights that support better decisions.
+                    </p>
+                    <div class="hero__ctas fade-in-up" style="--delay: 0.4s;">
+                        <a href="#projects" class="btn btn--primary">View My Projects</a>
+                        <a href="#contact" class="btn btn--secondary">Let's Work Together</a>
+                    </div>
+                </div>
+
+                <div class="hero__visual fade-in" style="--delay: 0.5s;">
+                    <div class="profile-pic-wrapper">
+                        <img src="profile.jpg" alt="Mohamed Medany Profile Picture" class="profile-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding alt-bg">
+            <div class="container">
+                <div class="about__content reveal-on-scroll">
+                    <h2 class="section-title">
+                        <span class="section-title__line"></span>
+                        About Me
+                    </h2>
+                    <div class="about__text">
+                        <p>
+                            I'm an aspiring Data Analyst currently studying at the Faculty of Computers and Artificial
+                            Intelligence, Damietta University.
+                        </p>
+                        <p>
+                            My approach focuses on practical business value—cleaning inconsistent records, analyzing
+                            trends, and building clear visualizations that highlight what the data is actually saying.
+                            During my Data Analyst internship at the Digital Egypt Pioneers Initiative (DEPI), I worked
+                            firsthand with messy datasets, applying data transformation techniques and developing
+                            interactive dashboards to support decision-making.
+                        </p>
+                        <p>
+                            Whether it's uncovering revenue drivers in a telecom dataset or organizing sales KPIs into a
+                            clear dashboard, my goal is to make data accessible, understandable, and actionable for
+                            small businesses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">
+                    <span class="section-title__line"></span>
+                    What I Do
+                </h2>
+
+                <div class="services__grid">
+                    <article class="service-card reveal-on-scroll" style="--delay: 0s;">
+                        <div class="service-card__icon"><i class="ph ph-broom"></i></div>
+                        <h3 class="service-card__title">Data Cleaning</h3>
+                        <p class="service-card__text">
+                            Transforming messy, inconsistent datasets into structured formats ready for analysis,
+                            ensuring your business decisions are based on reliable facts.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.1s;">
+                        <div class="service-card__icon"><i class="ph ph-magnifying-glass-plus"></i></div>
+                        <h3 class="service-card__title">Data Analysis</h3>
+                        <p class="service-card__text">
+                            Identifying trends, patterns, and anomalies in your data to uncover insights that can reduce
+                            costs or highlight new revenue opportunities.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.2s;">
+                        <div class="service-card__icon"><i class="ph ph-chart-bar"></i></div>
+                        <h3 class="service-card__title">Data Visualization</h3>
+                        <p class="service-card__text">
+                            Designing clear, intuitive charts and graphs that make complex data easy to understand at a
+                            glance for stakeholders.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.3s;">
+                        <div class="service-card__icon"><i class="ph ph-layout"></i></div>
+                        <h3 class="service-card__title">Dashboard Development</h3>
+                        <p class="service-card__text">
+                            Building interactive, centralized dashboards that track your most important Key Performance
+                            Indicators (KPIs) in real-time.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.4s;">
+                        <div class="service-card__icon"><i class="ph ph-file-text"></i></div>
+                        <h3 class="service-card__title">Business Reporting</h3>
+                        <p class="service-card__text">
+                            Creating concise, actionable reports that summarize findings and offer practical
+                            recommendations for business growth.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding alt-bg">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">
+                    <span class="section-title__line"></span>
+                    Skills & Technologies
+                </h2>
+
+                <div class="skills__container reveal-on-scroll">
+                    <div class="skills__col border-right">
+                        <div class="skills__block">
+                            <h3 class="skills__heading">Data Analytics</h3>
+                            <ul class="skills__list">
+                                <li><i class="ph ph-check"></i> Data Cleaning</li>
+                                <li><i class="ph ph-check"></i> Data Analysis</li>
+                                <li><i class="ph ph-check"></i> Data Visualization</li>
+                                <li><i class="ph ph-check"></i> Dashboard Development</li>
+                                <li><i class="ph ph-check"></i> Reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="skills__col skills__col--large">
+                        <div class="skills__block">
+                            <h3 class="skills__heading">Tools & Technologies</h3>
+                            <div class="skills__chips">
+                                <span class="chip">Excel</span>
+                                <span class="chip">Power Query</span>
+                                <span class="chip">Power BI</span>
+                                <span class="chip">Python</span>
+                                <span class="chip">Pandas</span>
+                                <span class="chip">NumPy</span>
+                                <span class="chip">Matplotlib</span>
+                                <span class="chip">Tableau</span>
+                                <span class="chip">SQL</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__row mt-8">
+                            <div class="skills__sub-block">
+                                <h3 class="skills__heading">Programming</h3>
+                                <div class="skills__chips">
+                                    <span class="chip">Python</span>
+                                    <span class="chip">C++</span>
+                                </div>
+                            </div>
+                            <div class="skills__sub-block">
+                                <h3 class="skills__heading">Languages</h3>
+                                <ul class="skills__list skills__list--spread">
+                                    <li><span>Arabic</span> <span class="meta">Native</span></li>
+                                    <li><span>English</span> <span class="meta">Intermediate</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__col border-left">
+                        <div class="skills__block">
+                            <h3 class="skills__heading">Professional Skills</h3>
+                            <ul class="skills__list">
+                                <li><i class="ph ph-check"></i> Problem Solving</li>
+                                <li><i class="ph ph-check"></i> Analytical Thinking</li>
+                                <li><i class="ph ph-check"></i> Communication</li>
+                                <li><i class="ph ph-check"></i> Teamwork</li>
+                                <li><i class="ph ph-check"></i> Attention to Detail</li>
+                                <li><i class="ph ph-check"></i> Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <div class="projects__header reveal-on-scroll">
+                    <h2 class="section-title">
+                        <span class="section-title__line"></span>
+                        Featured Projects
+                    </h2>
+                    <p class="projects__intro">
+                        A selection of analytical projects demonstrating my process from raw data to actionable business
+                        insights.
+                    </p>
+                </div>
+
+                <div class="projects__list">
+
+                    <!-- Project 01 -->
+                    <article class="project reveal-on-scroll">
+                        <div class="project__content">
+                            <div class="project__number">
+                                <span class="num">01</span>
+                                <span class="line"></span>
+                            </div>
+                            <h3 class="project__title">Telecom Customer Churn Prediction & Revenue Retention Strategy
+                            </h3>
+                            <p class="project__description">
+                                A comprehensive predictive analysis project to identify telecom customers at risk of
+                                leaving, enabling proactive retention strategies.
+                            </p>
+
+                            <dl class="project__details">
+                                <div class="detail-row">
+                                    <dt>Dataset</dt>
+                                    <dd>100K telecom customer records</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Approach</dt>
+                                    <dd>EDA, Logistic Regression, Random Forest, CatBoost</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Value</dt>
+                                    <dd>Identified key churn drivers, generated churn-risk predictions, and proposed
+                                        data-driven retention strategies to protect revenue.</dd>
+                                </div>
+                            </dl>
+
+                            <div class="project__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag tag--accent border-accent">Metric: 0.689 ROC-AUC</span>
+                            </div>
+                        </div>
+
+                        <div class="project__visual">
+                            <div class="visual-card">
+                                <div class="visual-card__header">
+                                    <span class="label">Model Performance (ROC-AUC)</span>
+                                    <span class="metric">0.689</span>
+                                </div>
+                                <div class="visual-card__bars">
+                                    <div class="v-bar" style="height: 40%;"><span class="v-label">LogReg</span></div>
+                                    <div class="v-bar" style="height: 60%;"><span class="v-label">RF</span></div>
+                                    <div class="v-bar v-bar--accent" style="height: 80%;"><span
+                                            class="v-label text-accent font-bold">CatBoost</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 02 -->
+                    <article class="project project--reverse reveal-on-scroll">
+                        <div class="project__content">
+                            <div class="project__number">
+                                <span class="num">02</span>
+                                <span class="line"></span>
+                            </div>
+                            <h3 class="project__title">Sales Performance Dashboard</h3>
+                            <p class="project__description">
+                                A portfolio case study focusing on converting raw sales data into an interactive,
+                                monitoring-friendly dashboard layout.
+                            </p>
+
+                            <dl class="project__details">
+                                <div class="detail-row">
+                                    <dt>Process</dt>
+                                    <dd>Data Preparation → Analysis → Dashboard Design</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Value</dt>
+                                    <dd>Highlighted sales trends and performance patterns. Compared product and regional
+                                        performance, organizing important KPIs to make sales information easier to
+                                        monitor.</dd>
+                                </div>
+                            </dl>
+
+                            <div class="project__tags">
+                                <span class="tag">Excel</span>
+                                <span class="tag">Power BI</span>
+                            </div>
+                        </div>
+
+                        <div class="project__visual">
+                            <div class="visual-card visual-card--dashboard">
+                                <div class="dashboard-header">Sales Performance Dashboard</div>
+                                <div class="dashboard-grid">
+                                    <div class="kpi-box">
+                                        <div class="kpi-icon"></div>
+                                        <div class="kpi-line"></div>
+                                        <div class="kpi-value"></div>
+                                    </div>
+                                    <div class="kpi-box">
+                                        <div class="kpi-icon"></div>
+                                        <div class="kpi-line"></div>
+                                        <div class="kpi-value"></div>
+                                    </div>
+                                    <div class="kpi-chart">
+                                        <svg viewBox="0 0 100 30" preserveAspectRatio="none">
+                                            <path d="M0,25 Q10,20 20,22 T40,15 T60,18 T80,5 T100,2" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 03 -->
+                    <article class="project reveal-on-scroll">
+                        <div class="project__content">
+                            <div class="project__number">
+                                <span class="num">03</span>
+                                <span class="line"></span>
+                            </div>
+                            <h3 class="project__title">Stadium Booking Platform Analysis</h3>
+                            <p class="project__description">
+                                An analytical review of booking trends and stadium utilization for a booking platform,
+                                treated as a personal portfolio project.
+                            </p>
+
+                            <dl class="project__details">
+                                <div class="detail-row">
+                                    <dt>Focus</dt>
+                                    <dd>Booking patterns, popular time slots, customer activity, and facility
+                                        utilization.</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Value</dt>
+                                    <dd>Examined raw operational data to reveal peak booking times and facility usage
+                                        rates, illustrating how data can inform scheduling and pricing strategies.</dd>
+                                </div>
+                            </dl>
+
+                            <div class="project__tags">
+                                <span class="tag">SQL</span>
+                                <span class="tag">Excel</span>
+                                <span class="tag">Power BI</span>
+                            </div>
+                        </div>
+
+                        <div class="project__visual">
+                            <div class="visual-card visual-card--center">
+                                <div class="heatmap">
+                                    <div class="heatmap-header">
+                                        <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+                                    </div>
+                                    <div class="heatmap-grid">
+                                        <div class="cell cell-0"></div>
+                                        <div class="cell cell-1"></div>
+                                        <div class="cell cell-2"></div>
+                                        <div class="cell cell-0"></div>
+                                        <div class="cell cell-3"></div>
+                                        <div class="cell cell-4"></div>
+                                        <div class="cell cell-4"></div>
+                                        <div class="cell cell-0"></div>
+                                        <div class="cell cell-1"></div>
+                                        <div class="cell cell-0"></div>
+                                        <div class="cell cell-0"></div>
+                                        <div class="cell cell-2"></div>
+                                        <div class="cell cell-4"></div>
+                                        <div class="cell cell-4"></div>
+                                        <div class="cell cell-1"></div>
+                                        <div class="cell cell-2"></div>
+                                        <div class="cell cell-3"></div>
+                                        <div class="cell cell-1"></div>
+                                        <div class="cell cell-4"></div>
+                                        <div class="cell cell-4"></div>
+                                        <div class="cell cell-4"></div>
+                                    </div>
+                                </div>
+                                <div class="visual-label">Booking Frequency Heatmap</div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Certification Section -->
+        <section id="experience" class="experience section-padding alt-bg">
+            <div class="container experience__grid">
+
+                <!-- Experience -->
+                <div class="reveal-on-scroll">
+                    <h2 class="section-title">
+                        <span class="section-title__line"></span>
+                        Experience
+                    </h2>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h3 class="timeline-title">Data Analyst Intern</h3>
+                            <p class="timeline-subtitle">DEPI (Digital Egypt Pioneers Initiative)</p>
+                            <ul class="timeline-list">
+                                <li>Cleaned, transformed, and analyzed datasets using Excel, Power Query, and Power BI.
+                                </li>
+                                <li>Applied data cleaning, transformation, and visualization techniques to handle messy
+                                    and inconsistent categorical data.</li>
+                                <li>Developed interactive Power BI dashboards analyzing business datasets to highlight
+                                    key trends and support decision-making.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education & Certification -->
+                <div class="reveal-on-scroll">
+                    <h2 class="section-title">
+                        <span class="section-title__line"></span>
+                        Education & Certs
+                    </h2>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h3 class="timeline-title">Faculty of Computers and Artificial Intelligence</h3>
+                            <p class="timeline-subtitle">Damietta University <span class="timeline-meta">| 2025 – 2029
+                                    (Expected)</span></p>
+                            <p class="timeline-desc">
+                                Coursework: Programming Fundamentals, Data Structures, Database Fundamentals,
+                                Statistics, Artificial Intelligence, Object-Oriented Programming.
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h3 class="timeline-title">The Global Consumer Intelligence (GCI) Course</h3>
+                            <p class="timeline-subtitle">Matsuo-Iwasawa Lab — Tokyo University <span
+                                    class="timeline-meta">| 2026</span></p>
+                            <p class="timeline-desc">
+                                Hands-on learning experience covering data science, Python, machine learning
+                                fundamentals, and practical data application in business settings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container contact__container reveal-on-scroll">
+                <h2 class="contact__title">Have data but not sure what it is telling you?</h2>
+                <p class="contact__subtitle">
+                    Let's turn your data into clear insights that support better decisions.
+                </p>
+
+                <div class="contact__socials">
+                    <a href="https://wa.me/201041401661" target="_blank" rel="noopener noreferrer"
+                        class="social-btn social-btn--whatsapp" aria-label="WhatsApp">
+                        <i class="ph ph-whatsapp-logo"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/-mohamed-medany" target="_blank" rel="noopener noreferrer"
+                        class="social-btn" aria-label="LinkedIn">
+                        <i class="ph ph-linkedin-logo"></i>
+                    </a>
+                    <a href="https://github.com/VAKRIX" target="_blank" rel="noopener noreferrer" class="social-btn"
+                        aria-label="GitHub">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                </div>
+
+                <form class="contact__form" id="contact-form">
+                    <div class="form-header">
+                        <h3 class="form-title">Send me a message</h3>
+                        <p class="form-note"><i class="ph ph-envelope-simple"></i> Your message will be sent directly to <strong>m7mdmedany@gmail.com</strong></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="YOUR NAME">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="YOUR EMAIL">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="TELL ME ABOUT YOUR DATA..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
+                        <i class="ph ph-paper-plane-tilt"></i> Send
+                    </button>
+                    <p class="form-success hidden" id="form-success">✅ Message sent! I'll get back to you soon.</p>
+                    <p class="form-error hidden" id="form-error">❌ Something went wrong. Please try again.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Mohamed Medany. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
