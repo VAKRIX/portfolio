@@ -141,6 +141,24 @@
                     </article>
 
                     <article class="service-card reveal-on-scroll" style="--delay: 0.1s;">
+                        <div class="service-card__icon"><i class="ph ph-database"></i></div>
+                        <h3 class="service-card__title">Data Modeling</h3>
+                        <p class="service-card__text">
+                            Building efficient data models and relationships to ensure accurate reporting and scalable
+                            analytics solutions.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.2s;">
+                        <div class="service-card__icon"><i class="ph ph-function"></i></div>
+                        <h3 class="service-card__title">DAX Development</h3>
+                        <p class="service-card__text">
+                            Creating custom measures, KPIs, and calculated columns to deliver advanced business
+                            insights.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.3s;">
                         <div class="service-card__icon"><i class="ph ph-magnifying-glass-plus"></i></div>
                         <h3 class="service-card__title">Data Analysis</h3>
                         <p class="service-card__text">
@@ -149,7 +167,7 @@
                         </p>
                     </article>
 
-                    <article class="service-card reveal-on-scroll" style="--delay: 0.2s;">
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.4s;">
                         <div class="service-card__icon"><i class="ph ph-chart-bar"></i></div>
                         <h3 class="service-card__title">Data Visualization</h3>
                         <p class="service-card__text">
@@ -158,21 +176,12 @@
                         </p>
                     </article>
 
-                    <article class="service-card reveal-on-scroll" style="--delay: 0.3s;">
+                    <article class="service-card reveal-on-scroll" style="--delay: 0.5s;">
                         <div class="service-card__icon"><i class="ph ph-layout"></i></div>
                         <h3 class="service-card__title">Dashboard Development</h3>
                         <p class="service-card__text">
                             Building interactive, centralized dashboards that track your most important Key Performance
                             Indicators (KPIs) in real-time.
-                        </p>
-                    </article>
-
-                    <article class="service-card reveal-on-scroll" style="--delay: 0.4s;">
-                        <div class="service-card__icon"><i class="ph ph-file-text"></i></div>
-                        <h3 class="service-card__title">Business Reporting</h3>
-                        <p class="service-card__text">
-                            Creating concise, actionable reports that summarize findings and offer practical
-                            recommendations for business growth.
                         </p>
                     </article>
                 </div>
@@ -217,21 +226,12 @@
                             </div>
                         </div>
 
-                        <div class="skills__row mt-8">
-                            <div class="skills__sub-block">
-                                <h3 class="skills__heading">Programming</h3>
-                                <div class="skills__chips">
-                                    <span class="chip">Python</span>
-                                    <span class="chip">C++</span>
-                                </div>
-                            </div>
-                            <div class="skills__sub-block">
-                                <h3 class="skills__heading">Languages</h3>
-                                <ul class="skills__list skills__list--spread">
-                                    <li><span>Arabic</span> <span class="meta">Native</span></li>
-                                    <li><span>English</span> <span class="meta">Intermediate</span></li>
-                                </ul>
-                            </div>
+                        <div class="skills__sub-block mt-8">
+                            <h3 class="skills__heading">Languages</h3>
+                            <ul class="skills__list skills__list--spread">
+                                <li><span>Arabic</span> <span class="meta">Native</span></li>
+                                <li><span>English</span> <span class="meta">Intermediate</span></li>
+                            </ul>
                         </div>
                     </div>
 
@@ -255,16 +255,10 @@
         <!-- Projects Section -->
         <section id="projects" class="projects section-padding">
             <div class="container">
-                <div class="projects__header reveal-on-scroll">
-                    <h2 class="section-title">
-                        <span class="section-title__line"></span>
-                        Featured Projects
-                    </h2>
-                    <p class="projects__intro">
-                        A selection of analytical projects demonstrating my process from raw data to actionable business
-                        insights.
-                    </p>
-                </div>
+                <h2 class="section-title reveal-on-scroll" style="margin-bottom: 3rem;">
+                    <span class="section-title__line"></span>
+                    Featured Projects
+                </h2>
 
                 <div class="projects__list">
 
@@ -306,17 +300,8 @@
                         </div>
 
                         <div class="project__visual">
-                            <div class="visual-card">
-                                <div class="visual-card__header">
-                                    <span class="label">Model Performance (ROC-AUC)</span>
-                                    <span class="metric">0.689</span>
-                                </div>
-                                <div class="visual-card__bars">
-                                    <div class="v-bar" style="height: 40%;"><span class="v-label">LogReg</span></div>
-                                    <div class="v-bar" style="height: 60%;"><span class="v-label">RF</span></div>
-                                    <div class="v-bar v-bar--accent" style="height: 80%;"><span
-                                            class="v-label text-accent font-bold">CatBoost</span></div>
-                                </div>
+                            <div class="project-image-card">
+                                <img src="project1.png" alt="Telecom Customer Churn Prediction">
                             </div>
                         </div>
                     </article>
@@ -326,6 +311,54 @@
                         <div class="project__content">
                             <div class="project__number">
                                 <span class="num">02</span>
+                                <span class="line"></span>
+                            </div>
+                            <h3 class="project__title">BMW Sales Analytics Dashboard</h3>
+                            <p class="project__description">
+                                Developed an interactive Power BI dashboard analyzing 50K BMW sales records. Built KPI
+                                tracking, regional performance analysis, product portfolio insights, and pricing
+                                segmentation using Power Query, DAX, data modeling, and advanced visualizations to
+                                deliver actionable business intelligence and support data-driven decision making.
+                            </p>
+
+                            <dl class="project__details">
+                                <div class="detail-row">
+                                    <dt>Dataset</dt>
+                                    <dd>50,000 BMW vehicle sales records containing model, price, sales volume, fuel
+                                        type, transmission, region, model year, mileage, and engine size data.</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Approach</dt>
+                                    <dd>Cleaned and transformed the data using Power Query, created DAX measures and
+                                        calculated columns, built a data model, and designed an interactive 4-page Power
+                                        BI dashboard.</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Process</dt>
+                                    <dd>Data Cleaning → Data Modeling → DAX Calculations → KPI Development → Interactive
+                                        Dashboard Design → Business Insights Generation.</dd>
+                                </div>
+                            </dl>
+
+                            <div class="project__tags">
+                                <span class="tag">Power Query</span>
+                                <span class="tag">DAX</span>
+                                <span class="tag">Power BI</span>
+                            </div>
+                        </div>
+
+                        <div class="project__visual">
+                            <div class="project-image-card">
+                                <img src="project2.png" alt="BMW Sales Analytics Dashboard">
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 03 -->
+                    <article class="project reveal-on-scroll">
+                        <div class="project__content">
+                            <div class="project__number">
+                                <span class="num">03</span>
                                 <span class="line"></span>
                             </div>
                             <h3 class="project__title">Sales Performance Dashboard</h3>
@@ -354,93 +387,8 @@
                         </div>
 
                         <div class="project__visual">
-                            <div class="visual-card visual-card--dashboard">
-                                <div class="dashboard-header">Sales Performance Dashboard</div>
-                                <div class="dashboard-grid">
-                                    <div class="kpi-box">
-                                        <div class="kpi-icon"></div>
-                                        <div class="kpi-line"></div>
-                                        <div class="kpi-value"></div>
-                                    </div>
-                                    <div class="kpi-box">
-                                        <div class="kpi-icon"></div>
-                                        <div class="kpi-line"></div>
-                                        <div class="kpi-value"></div>
-                                    </div>
-                                    <div class="kpi-chart">
-                                        <svg viewBox="0 0 100 30" preserveAspectRatio="none">
-                                            <path d="M0,25 Q10,20 20,22 T40,15 T60,18 T80,5 T100,2" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 03 -->
-                    <article class="project reveal-on-scroll">
-                        <div class="project__content">
-                            <div class="project__number">
-                                <span class="num">03</span>
-                                <span class="line"></span>
-                            </div>
-                            <h3 class="project__title">Stadium Booking Platform Analysis</h3>
-                            <p class="project__description">
-                                An analytical review of booking trends and stadium utilization for a booking platform,
-                                treated as a personal portfolio project.
-                            </p>
-
-                            <dl class="project__details">
-                                <div class="detail-row">
-                                    <dt>Focus</dt>
-                                    <dd>Booking patterns, popular time slots, customer activity, and facility
-                                        utilization.</dd>
-                                </div>
-                                <div class="detail-row">
-                                    <dt>Value</dt>
-                                    <dd>Examined raw operational data to reveal peak booking times and facility usage
-                                        rates, illustrating how data can inform scheduling and pricing strategies.</dd>
-                                </div>
-                            </dl>
-
-                            <div class="project__tags">
-                                <span class="tag">SQL</span>
-                                <span class="tag">Excel</span>
-                                <span class="tag">Power BI</span>
-                            </div>
-                        </div>
-
-                        <div class="project__visual">
-                            <div class="visual-card visual-card--center">
-                                <div class="heatmap">
-                                    <div class="heatmap-header">
-                                        <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
-                                    </div>
-                                    <div class="heatmap-grid">
-                                        <div class="cell cell-0"></div>
-                                        <div class="cell cell-1"></div>
-                                        <div class="cell cell-2"></div>
-                                        <div class="cell cell-0"></div>
-                                        <div class="cell cell-3"></div>
-                                        <div class="cell cell-4"></div>
-                                        <div class="cell cell-4"></div>
-                                        <div class="cell cell-0"></div>
-                                        <div class="cell cell-1"></div>
-                                        <div class="cell cell-0"></div>
-                                        <div class="cell cell-0"></div>
-                                        <div class="cell cell-2"></div>
-                                        <div class="cell cell-4"></div>
-                                        <div class="cell cell-4"></div>
-                                        <div class="cell cell-1"></div>
-                                        <div class="cell cell-2"></div>
-                                        <div class="cell cell-3"></div>
-                                        <div class="cell cell-1"></div>
-                                        <div class="cell cell-4"></div>
-                                        <div class="cell cell-4"></div>
-                                        <div class="cell cell-4"></div>
-                                    </div>
-                                </div>
-                                <div class="visual-label">Booking Frequency Heatmap</div>
+                            <div class="project-image-card">
+                                <img src="project3.png" alt="Sales Performance Dashboard">
                             </div>
                         </div>
                     </article>
@@ -451,64 +399,85 @@
 
         <!-- Experience & Certification Section -->
         <section id="experience" class="experience section-padding alt-bg">
-            <div class="container experience__grid">
-
-                <!-- Experience -->
-                <div class="reveal-on-scroll">
+            <div class="container">
+                <div class="reveal-on-scroll" style="margin-bottom: 3rem;">
                     <h2 class="section-title">
                         <span class="section-title__line"></span>
-                        Experience
+                        Education & Experience
                     </h2>
-
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h3 class="timeline-title">Data Analyst Intern</h3>
-                            <p class="timeline-subtitle">DEPI (Digital Egypt Pioneers Initiative)</p>
-                            <ul class="timeline-list">
-                                <li>Cleaned, transformed, and analyzed datasets using Excel, Power Query, and Power BI.
-                                </li>
-                                <li>Applied data cleaning, transformation, and visualization techniques to handle messy
-                                    and inconsistent categorical data.</li>
-                                <li>Developed interactive Power BI dashboards analyzing business datasets to highlight
-                                    key trends and support decision-making.</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
 
-                <!-- Education & Certification -->
-                <div class="reveal-on-scroll">
-                    <h2 class="section-title">
-                        <span class="section-title__line"></span>
-                        Education & Certs
-                    </h2>
+                <div class="resume-grid">
 
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h3 class="timeline-title">Faculty of Computers and Artificial Intelligence</h3>
-                            <p class="timeline-subtitle">Damietta University <span class="timeline-meta">| 2025 – 2029
-                                    (Expected)</span></p>
-                            <p class="timeline-desc">
-                                Coursework: Programming Fundamentals, Data Structures, Database Fundamentals,
-                                Statistics, Artificial Intelligence, Object-Oriented Programming.
-                            </p>
+                    <!-- Education Card -->
+                    <div class="resume-card reveal-on-scroll" style="--delay: 0.1s;">
+                        <div class="resume-card__header">
+                            <div class="resume-card__icon">
+                                <i class="ph ph-graduation-cap"></i>
+                            </div>
+                            <div class="resume-card__badge">2025 – 2029</div>
                         </div>
+                        <h3 class="resume-card__title">Faculty of Computers and Artificial Intelligence</h3>
+                        <p class="resume-card__subtitle">Damietta University</p>
 
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h3 class="timeline-title">The Global Consumer Intelligence (GCI) Course</h3>
-                            <p class="timeline-subtitle">Matsuo-Iwasawa Lab — Tokyo University <span
-                                    class="timeline-meta">| 2026</span></p>
-                            <p class="timeline-desc">
-                                Hands-on learning experience covering data science, Python, machine learning
-                                fundamentals, and practical data application in business settings.
-                            </p>
-                        </div>
+                        <p class="resume-card__desc">
+                            Academic coursework providing a strong foundation in computer science and AI.
+                        </p>
+
+                        <ul class="resume-card__list">
+                            <li><i class="ph ph-check-square"></i> Programming & Data Structures</li>
+                            <li><i class="ph ph-check-square"></i> Database Fundamentals & SQL</li>
+                            <li><i class="ph ph-check-square"></i> Statistics & Artificial Intelligence</li>
+                        </ul>
                     </div>
-                </div>
 
+                    <!-- Experience Card -->
+                    <div class="resume-card reveal-on-scroll" style="--delay: 0.2s;">
+                        <div class="resume-card__header">
+                            <div class="resume-card__icon">
+                                <i class="ph ph-code"></i>
+                            </div>
+                            <div class="resume-card__badge">Recent</div>
+                        </div>
+                        <h3 class="resume-card__title">Digital Egypt Pioneers Initiative (DEPI)</h3>
+                        <p class="resume-card__subtitle">Data Analyst Intern</p>
+
+                        <p class="resume-card__desc">
+                            Intensive government-sponsored professional training program focusing on practical data
+                            analytics.
+                        </p>
+
+                        <ul class="resume-card__list">
+                            <li><i class="ph ph-check-square"></i> Data cleaning & transformation</li>
+                            <li><i class="ph ph-check-square"></i> Power BI dashboard development</li>
+                            <li><i class="ph ph-check-square"></i> Trend analysis for business datasets</li>
+                        </ul>
+                    </div>
+
+                    <!-- Certification Card -->
+                    <div class="resume-card reveal-on-scroll" style="--delay: 0.3s;">
+                        <div class="resume-card__header">
+                            <div class="resume-card__icon">
+                                <i class="ph ph-medal"></i>
+                            </div>
+                            <div class="resume-card__badge">2026</div>
+                        </div>
+                        <h3 class="resume-card__title">The Global Consumer Intelligence (GCI) Course</h3>
+                        <p class="resume-card__subtitle">Tokyo University <br> Matsuo-Iwasawa Lab</p>
+
+                        <p class="resume-card__desc">
+                            Hands-on learning experience covering data science, Python, and machine learning
+                            fundamentals.
+                        </p>
+
+                        <div class="cert-wrapper" style="margin-top: 1rem; width: 100%; max-width: 100%;">
+                            <img src="GCI.png" alt="GCI Certificate Placeholder" class="cert-img">
+                        </div>
+
+
+                    </div>
+
+                </div>
             </div>
         </section>
 
@@ -538,7 +507,9 @@
                 <form class="contact__form" id="contact-form">
                     <div class="form-header">
                         <h3 class="form-title">Send me a message</h3>
-                        <p class="form-note"><i class="ph ph-envelope-simple"></i> Your message will be sent directly to <strong>m7mdmedany@gmail.com</strong></p>
+                        <p class="form-note"><i class="ph ph-envelope-simple"></i> Your message will be sent directly to
+                            <strong>m7mdmedany@gmail.com</strong>
+                        </p>
                     </div>
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -550,7 +521,8 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4" required placeholder="TELL ME ABOUT YOUR DATA..."></textarea>
+                        <textarea id="message" name="message" rows="4" required
+                            placeholder="TELL ME ABOUT YOUR DATA..."></textarea>
                     </div>
                     <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
                         <i class="ph ph-paper-plane-tilt"></i> Send
