@@ -95,28 +95,152 @@
         <!-- About Section -->
         <section id="about" class="about section-padding alt-bg">
             <div class="container">
-                <div class="about__content reveal-on-scroll">
-                    <h2 class="section-title">
-                        <span class="section-title__line"></span>
-                        About Me
-                    </h2>
-                    <div class="about__text">
-                        <p>
-                            I'm an aspiring Data Analyst currently studying at the Faculty of Computers and Artificial
-                            Intelligence, Damietta University.
-                        </p>
-                        <p>
-                            My approach focuses on practical business value—cleaning inconsistent records, analyzing
-                            trends, and building clear visualizations that highlight what the data is actually saying.
-                            During my Data Analyst internship at the Digital Egypt Pioneers Initiative (DEPI), I worked
-                            firsthand with messy datasets, applying data transformation techniques and developing
-                            interactive dashboards to support decision-making.
-                        </p>
-                        <p>
-                            Whether it's uncovering revenue drivers in a telecom dataset or organizing sales KPIs into a
-                            clear dashboard, my goal is to make data accessible, understandable, and actionable for
-                            small businesses.
-                        </p>
+                <div class="about__grid reveal-on-scroll">
+                    <!-- Left: Text -->
+                    <div class="about__content">
+                        <h2 class="section-title">
+                            <span class="section-title__line"></span>
+                            About Me
+                        </h2>
+                        <div class="about__text">
+                            <p>
+                                I'm a Data Analyst and Computer Science &amp; AI student at Damietta University, with
+                                hands-on experience in Excel, Power Query, Power BI, Python, and SQL.
+                            </p>
+                            <p>
+                                I specialize in turning raw and inconsistent data into clear, actionable insights. My
+                                work includes data cleaning and transformation, trend analysis, KPI tracking, and
+                                building interactive dashboards that make complex information easy to understand.
+                            </p>
+                            <p>
+                                Through my Data Analyst internship at the Digital Egypt Pioneers Initiative (DEPI), I
+                                gained practical experience working with real-world datasets and developing data-driven
+                                reports and dashboards to support better decision-making.
+                            </p>
+                            <p>
+                                I'm passionate about helping businesses understand their data, uncover meaningful
+                                trends, and turn information into insights that support smarter decisions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Right: Visual Panel -->
+                    <div class="about__visual">
+                        <!-- Floating Tool Badges -->
+                        <div class="tool-badge tool-badge--python">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python" class="tool-badge__icon">
+                            <span>Python</span>
+                        </div>
+                        <div class="tool-badge tool-badge--powerbi">
+                            <svg class="tool-badge__icon" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="6" fill="#F2C811" />
+                                <rect x="7" y="14" width="4" height="12" rx="1" fill="#333" />
+                                <rect x="13" y="9" width="4" height="17" rx="1" fill="#333" />
+                                <rect x="19" y="5" width="4" height="21" rx="1" fill="#333" />
+                            </svg>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="tool-badge tool-badge--excel">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+                                alt="Excel" class="tool-badge__icon" style="display:none">
+                            <svg class="tool-badge__icon" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="6" fill="#217346" />
+                                <path d="M8 8h16v16H8z" fill="none" /><text x="5" y="22" font-size="13"
+                                    font-weight="bold" fill="white" font-family="Arial">X</text>
+                                <line x1="8" y1="8" x2="24" y2="24" stroke="white" stroke-width="2" />
+                                <line x1="24" y1="8" x2="8" y2="24" stroke="white" stroke-width="2" />
+                            </svg>
+                            <span>Excel</span>
+                        </div>
+                        <div class="tool-badge tool-badge--sql">
+                            <svg class="tool-badge__icon" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="6" fill="#336791" />
+                                <ellipse cx="16" cy="10" rx="9" ry="4" fill="#fff" fill-opacity=".9" />
+                                <path d="M7 10v12c0 2.21 4.03 4 9 4s9-1.79 9-4V10" stroke="#fff" stroke-width="1.5"
+                                    fill="none" stroke-opacity=".9" />
+                                <path d="M7 16c0 2.21 4.03 4 9 4s9-1.79 9-4" stroke="#fff" stroke-width="1.5"
+                                    fill="none" stroke-opacity=".7" />
+                            </svg>
+                            <span>SQL</span>
+                        </div>
+                        <div class="tool-badge tool-badge--pq">
+                            <svg class="tool-badge__icon" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="6" fill="#742774" /><text x="4" y="22" font-size="11"
+                                    font-weight="bold" fill="white" font-family="Arial">PQ</text>
+                            </svg>
+                            <span>Power Query</span>
+                        </div>
+
+                        <!-- Inner Dashboard Card -->
+                        <div class="about-dashboard">
+                            <div class="about-dashboard__header">
+                                <div class="about-dashboard__dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="about-dashboard__active">● ACTIVE</span>
+                            </div>
+
+                            <div class="about-dashboard__metrics">
+                                <div class="about-dash-metric">
+                                    <div class="about-dash-metric__label">Analysis Focus</div>
+                                    <div class="about-dash-metric__tag">CORE</div>
+                                    <div class="about-dash-metric__value">Data Storytelling</div>
+                                </div>
+                                <div class="about-dash-metric">
+                                    <div class="about-dash-metric__label">Key Toolset</div>
+                                    <div class="about-dash-metric__tag">STACK</div>
+                                    <div class="about-dash-metric__value">SQL &amp; Power BI</div>
+                                </div>
+                            </div>
+
+                            <div class="about-dashboard__trend">
+                                <div class="about-dashboard__trend-header">
+                                    <span>PERFORMANCE TREND &amp; INSIGHTS</span>
+                                    <span class="about-dashboard__impact">+34.8% Impact</span>
+                                </div>
+                                <svg class="trend-line" viewBox="0 0 200 60" preserveAspectRatio="none">
+                                    <defs>
+                                        <linearGradient id="trendGrad" x1="0" y1="0" x2="1" y2="0">
+                                            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
+                                            <stop offset="100%" stop-color="#38bdf8" stop-opacity="1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <polyline points="0,55 40,45 90,30 140,18 200,8" stroke="url(#trendGrad)"
+                                        stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="90" cy="30" r="4" fill="#38bdf8" />
+                                    <circle cx="140" cy="18" r="4" fill="#38bdf8" />
+                                    <circle cx="200" cy="8" r="5" fill="#38bdf8" />
+                                </svg>
+                            </div>
+
+                            <div class="about-dashboard__process">
+                                <div class="about-dashboard__process-title">ANALYTICAL PROCESS</div>
+                                <div class="about-dashboard__steps">
+                                    <div class="process-step"><span class="process-step__num">01</span><span
+                                            class="process-step__label">Clean</span></div>
+                                    <span class="process-step__arrow">→</span>
+                                    <div class="process-step"><span class="process-step__num">02</span><span
+                                            class="process-step__label">Model</span></div>
+                                    <span class="process-step__arrow">→</span>
+                                    <div class="process-step"><span class="process-step__num">03</span><span
+                                            class="process-step__label">Analyze</span></div>
+                                    <span class="process-step__arrow">→</span>
+                                    <div class="process-step"><span class="process-step__num">04</span><span
+                                            class="process-step__label">Insight</span></div>
+                                </div>
+                            </div>
+
+                            <div class="about-dashboard__quote">
+                                <span class="about-dashboard__quote-mark">"</span>
+                                <em>Not just analysis — clear, useful insights based on what the client actually
+                                    needs.</em>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -197,43 +321,60 @@
                 </h2>
 
                 <div class="skills__container reveal-on-scroll">
-                    <div class="skills__col border-right">
-                        <div class="skills__block">
-                            <h3 class="skills__heading">Data Analytics</h3>
-                            <ul class="skills__list">
-                                <li><i class="ph ph-check"></i> Data Cleaning</li>
-                                <li><i class="ph ph-check"></i> Data Analysis</li>
-                                <li><i class="ph ph-check"></i> Data Visualization</li>
-                                <li><i class="ph ph-check"></i> Dashboard Development</li>
-                                <li><i class="ph ph-check"></i> Reporting</li>
-                            </ul>
-                        </div>
-                    </div>
-
                     <div class="skills__col skills__col--large">
                         <div class="skills__block">
-                            <h3 class="skills__heading">Tools & Technologies</h3>
+                            <h3 class="skills__heading">Tools &amp; Technologies</h3>
                             <div class="skills__chips">
-                                <span class="chip">Excel</span>
-                                <span class="chip">Power Query</span>
-                                <span class="chip">Power BI</span>
-                                <span class="chip">Python</span>
-                                <span class="chip">Pandas</span>
-                                <span class="chip">NumPy</span>
-                                <span class="chip">Matplotlib</span>
-                                <span class="chip">Tableau</span>
-                                <span class="chip">SQL</span>
+
+                                <span class="chip chip--icon">
+                                    <svg class="chip-icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#217346"/><line x1="9" y1="9" x2="23" y2="23" stroke="white" stroke-width="2.5"/><line x1="23" y1="9" x2="9" y2="23" stroke="white" stroke-width="2.5"/></svg>
+                                    Excel
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <svg class="chip-icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#742774"/><text x="4" y="22" font-size="11" font-weight="bold" fill="white" font-family="Arial">PQ</text></svg>
+                                    Power Query
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <svg class="chip-icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#F2C811"/><rect x="7" y="14" width="4" height="12" rx="1" fill="#333"/><rect x="13" y="9" width="4" height="17" rx="1" fill="#333"/><rect x="19" y="5" width="4" height="21" rx="1" fill="#333"/></svg>
+                                    Power BI
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                    Python
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                                    Pandas
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
+                                    NumPy
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <svg class="chip-icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#11557c"/><polyline points="4,24 10,14 16,18 22,8 28,12" stroke="#e07b39" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    Matplotlib
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <svg class="chip-icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#1f4e79"/><line x1="16" y1="5" x2="16" y2="27" stroke="#e8712a" stroke-width="2.5"/><line x1="5" y1="16" x2="27" y2="16" stroke="#e8712a" stroke-width="2.5"/><line x1="8" y1="8" x2="24" y2="24" stroke="#5b9bd5" stroke-width="1.5"/><line x1="24" y1="8" x2="8" y2="24" stroke="#5b9bd5" stroke-width="1.5"/><circle cx="16" cy="16" r="3" fill="#e8712a"/></svg>
+                                    Tableau
+                                </span>
+
+                                <span class="chip chip--icon">
+                                    <svg class="chip-icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#336791"/><ellipse cx="16" cy="10" rx="9" ry="4" fill="#fff" fill-opacity=".9"/><path d="M7 10v12c0 2.21 4.03 4 9 4s9-1.79 9-4V10" stroke="#fff" stroke-width="1.5" fill="none" stroke-opacity=".9"/><path d="M7 16c0 2.21 4.03 4 9 4s9-1.79 9-4" stroke="#fff" stroke-width="1.5" fill="none" stroke-opacity=".7"/></svg>
+                                    SQL
+                                </span>
+
                             </div>
                         </div>
-
-                        <div class="skills__sub-block mt-8">
-                            <h3 class="skills__heading">Languages</h3>
-                            <ul class="skills__list skills__list--spread">
-                                <li><span>Arabic</span> <span class="meta">Native</span></li>
-                                <li><span>English</span> <span class="meta">Intermediate</span></li>
-                            </ul>
-                        </div>
                     </div>
+
 
                     <div class="skills__col border-left">
                         <div class="skills__block">
